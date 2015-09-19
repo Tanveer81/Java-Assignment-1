@@ -3,17 +3,14 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-        //Room r1;
         Room r1 = new Room();
         r1.setHallName("Najrul Islam");
         r1.setRoomNo(315);
         r1.setStatus(false);
         r1.print();
 
-        //Room r2("Fazlul Haque", 220);
+        
         Room r2 = new Room("Fazlul Haque", 220);
-        //cout << r2.getHallName() << " " << r2.getRoomNo() << " " << r2.getStatus() << endl;
         System.out.print(r2.getHallName()  + " " + r2.getRoomNo()+" " + r2.getStatus() +"/n");
         System.out.print(r2.getHallName());
         System.out.print(r2.getRoomNo());
@@ -22,7 +19,6 @@ public class Main {
         r2.print();
 
         Student s1 = new Student("Asraful Alam", "1305125", r2);
-        //cout << "Student No: " << s1.getStudentNo() << ", " << s1.getStudentName() << ", resides on " << s1.getRoom().getHallName() << " Hall, Room no, " << s1.getRoom().getRoomNo() << endl;
         System.out.print("Student No: " + s1.getStudentNo() + ", " + s1.getStudentName() + ", resides on " + s1.getRoom().getHallName() + " Hall, Room no, " + s1.getRoom().getRoomNo() + "/n");
         r2.setStatus(true);
         r2.print();

@@ -36,7 +36,6 @@ public class Student {
         room = r;
     }
     public void print(){
-        //cout << "Student No: " << getStudentNo() << ", " << getStudentName() << ", resides on " << room.getHallName() << " Hall, Room no, " << room.getRoomNo() << endl;
         System.out.print("Student No: " + getStudentNo() + ", " + getStudentName() + ", resides on " + room.getHallName() + " Hall, Room no, " + room.getRoomNo());
     }
 }

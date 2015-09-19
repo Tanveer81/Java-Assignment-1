@@ -36,10 +36,8 @@ public class Room {
     }
     public void print(){
         if(getStatus()){
-            // cout << "Room No, " << getRoomNo() << " of " << getHallName() << " Hall is currently alloted."<<endl;
             System.out.print("Room No, " + getRoomNo() + " of " + getHallName()+ " Hall is currently alloted. \n");
         } else {
-            // cout << "Room No, " << getRoomNo() << " of " << getHallName() << " Hall is currently available for allotment."<<endl;
             System.out.print("Room No, " + getRoomNo() + " of " + getHallName() + " Hall is currently available for allotment. \n");
         }
     }
