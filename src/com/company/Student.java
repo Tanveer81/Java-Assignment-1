@@ -7,7 +7,7 @@ package com.company;
 public class Student {
     private  String studentName;
     private String studentNo;
-    Room room;
+    Private Room room;
 
     public Student(){
         //do noting
