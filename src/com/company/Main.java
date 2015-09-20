@@ -11,7 +11,7 @@ public class Main {
 
         
         Room r2 = new Room("Fazlul Haque", 220);
-        System.out.print(r2.getHallName()  + " " + r2.getRoomNo()+" " + r2.getStatus() +"/n");
+        System.out.print(r2.getHallName()  + " " + r2.getRoomNo()+" " + r2.getStatus() +"\n");
         System.out.print(r2.getHallName());
         System.out.print(r2.getRoomNo());
         System.out.print(r2.getStatus());
@@ -19,7 +19,7 @@ public class Main {
         r2.print();
 
         Student s1 = new Student("Asraful Alam", "1305125", r2);
-        System.out.print("Student No: " + s1.getStudentNo() + ", " + s1.getStudentName() + ", resides on " + s1.getRoom().getHallName() + " Hall, Room no, " + s1.getRoom().getRoomNo() + "/n");
+        System.out.print("Student No: " + s1.getStudentNo() + ", " + s1.getStudentName() + ", resides on " + s1.getRoom().getHallName() + " Hall, Room no, " + s1.getRoom().getRoomNo() + "\n");
         r2.setStatus(true);
         r2.print();
 
